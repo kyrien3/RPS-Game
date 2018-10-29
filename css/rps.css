@@ -5,12 +5,15 @@
     box-sizing: border-box;
 }
 body {
-    background-color:darkblue;
+    background-color:rgba(16, 16, 143, 0.897);
 }
 header{
     background: white;
     padding: 20px;
 }
+
+
+
 
 header > h1 {
     color:darkblue;
@@ -60,13 +63,13 @@ header > h1 {
 }
 
 .choices{
-    margin: 50px 0;
+    margin: 60px 0;
     text-align: center;
 }
 
 .choice{
     border: 4px solid white;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 10px;
     margin: 0 20px;
     display: inline-block;
@@ -75,6 +78,26 @@ header > h1 {
 .choice:hover{
     cursor: pointer;
     background: lightblue;
+}
+#action-message{
+    text-align: center;
+    color:white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.green-glow{
+    border: 4px solid greenyellow;
+    box-shadow: 0 0 10px green;
+}
+
+.red-glow{
+    border: 4px solid red;
+    box-shadow: 0 0 10px darkred;
+}
+.gray-glow{
+    border: 4px solid gray;
+    box-shadow: 0 0 10px darkgray;
 }
 
 
